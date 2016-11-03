@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans default-autowire="byName">
+
+	<bean id="bloggerDAO" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.glw.blog.dao.BloggerDao" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
+	<bean name="bloggerManager"
+		class="com.glw.blog.manager.impl.BloggerManagerImpl" />
+	
+	<bean id="blogDAO" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.glw.blog.dao.BlogDao" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
+<bean name="blogManager"
+		class="com.glw.blog.manager.impl.BlogManagerImpl" />
+
+
+	<bean id="photoDAO" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.glw.blog.dao.PhotoDao" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
+</beans>

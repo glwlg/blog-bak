@@ -1,0 +1,308 @@
+@CHARSET "UTF-8";
+html{
+	padding-bottom: 50px;
+}
+body {
+	width: 80%;
+	min-width:600px;
+	/*background-image:url(../images/main_img/bg.jpg);
+	background-size:cover;*/
+	background-color: #000;
+	font-family: "Microsoft Yahei UI";
+	margin-left: 10%;
+}
+b{
+	color: white;
+}
+i{
+	color: white;
+}
+li{
+	list-style-type: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+ a:hover {
+	color: red;
+	text-decoration: none;
+	transition: 1s all;
+	-webkit-transition: 1s all;
+	-moz-transition: 1s all;
+	-o-transition: 1s all;
+}
+#main {
+	width: 100%;
+	color:#FFF;
+	padding-bottom: 100px;
+}
+#top {
+	height: 204px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/main_img/top.jpg);
+	background-size: cover;
+}
+#dh{
+	position: relative;
+	top:75%;
+	display:inline;
+	float: right;
+}
+#dh ul li  {
+	float: left;
+	padding-right: 5px;
+}
+
+#dh ul li a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#dh ul li a:link {
+	color: #FF9;
+}
+
+#dh ul li a:visited {
+	color: #FF9;
+}
+
+#dh ul li a:hover {
+	color: #F00;
+	text-decoration: none;
+}
+
+#dh ul li a:active {
+	color: #000;
+}
+#left {
+	width: 20%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	padding-right:5px;
+	border-right:2px dashed #CFF;
+}
+#mid {
+	width: 78%;
+	height: auto;
+	float: right;
+}
+#mid table{
+	color: black;
+}
+#table1 {
+	width: 90%;
+}
+
+.comment1{
+	width:100%;
+	border-top: 2px dashed #CFF;
+}
+.comtop{
+	height: 50px;
+}
+.comdown{
+	width: 80%;
+	text-align: left;
+	word-break: break-all;
+}
+#comtext{
+	width: 600px;
+	height: 100px;
+	font-family:"microsoft yahei UI";
+	font-size:15px;
+	resize:none;
+	background-color: gray;
+	color: white;
+}
+
+#iframe1{
+	width: 100%;
+	border: 0;
+	
+}
+#comtable{
+	width: 80%;
+	color: white;
+}
+#text1{
+	height: 100px;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+}
+.content {
+	text-align: left;
+	color:#FFF;
+	font-size:16px;
+}
+
+#fenlei{
+	margin-top:30px;
+	border-style:double;
+	border-color:#999;
+	}
+	#sjdh{
+	margin-top:30px;
+	border-style:double;
+	border-color:#999;
+	}
+#left li{
+	list-style-image:url(../images/main_img/1.jpg);
+
+	
+	}
+	#left li a{
+		text-decoration:none;
+			font-size:18px;
+	}
+		#left li a:link{
+			color:#09C;
+	}
+		#left li a:visited{
+			color:#09C;
+	}
+		#left li a:hover{
+			color:#F00;
+			text-decoration: none;
+	}
+		#left li a:active{
+			color:#000;
+	}
+
+#btitlelist{
+	width:100%;
+	margin-top: 30px;
+	border-style: double;
+	border-color: #999;
+}
+#left li li{
+	list-style-image:url(../images/main_img/2.jpg);
+}
+	#left li li a{
+		text-decoration:none;
+		font-size:18px;
+		}
+		#left li li a:link{
+			color:#FF9;
+	}
+		#left li li a:visited{
+			color:gray;
+	}
+		#left li li a:hover{
+			color:#F00;
+			text-decoration: none;
+	}
+		#left li li a:active{
+			color:#000;
+	}
+#other {
+	position: absolute;
+	background-color : black;
+}
+
+#other ul li {
+	list-style: none;
+	float: none;
+}
+
+#other li a {
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#other li a:link {
+	color: #FF9;
+}
+
+#other li a:visited {
+	color: #FF9;
+}
+
+#other li a:hover {
+	color: #F00;
+	text-decoration: none;
+}
+
+#other li a:active {
+	color: #000;
+}
+#other ul {
+    margin-left: -30px;
+}
+#name{
+	font-family:"华文行楷";
+	font-size:24px;}
+#pic{
+	width: 100%
+}
+
+
+
+.ablum {
+	width: 200px;
+	height: 200px;
+	margin: 30px;
+	text-align: center;
+	float: left;
+}
+.ablum img{
+	width: 180px;
+	height: 180px;
+}
+
+.allblogtitle{
+	width: 30%;
+    float: left;
+    margin-top: 50px;
+}
+.allblogtitle a{
+	font-size: 20px;
+}
+
+#minphoto{
+	float:left;
+}
+#mainPic{
+	float:right;
+	margin-top: 20px;
+}
+.miniphoto{
+	width: 100px;
+	max-height: 50px;
+}
+#maxpic{
+	max-width: 800px;
+}
+#mindiv{
+	float:left;
+	border: thin;
+}
+.btn{
+	height: 50px;
+}
+#gotop{
+	position: fixed;
+	margin-left: 80%;
+}
+#down{
+	color: white;
+	width: 100%;
+	height: 100px;
+	float: right;
+	margin-top: 50px
+}
+#down ul li a{
+	float:left;
+	margin-left: 20px;
+}
+#answerlist{
+	border-top: 2px dashed #CFF;
+}
+
